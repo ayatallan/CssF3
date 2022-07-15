@@ -1,0 +1,85 @@
+body{
+    width: 100%;
+}
+
+.first{
+display: flex; 
+justify-content: space-evenly;
+
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:40px ;
+}
+.outer1{
+    display: inline-block;
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    margin-top: 40px;
+    
+}
+.between1{
+    background-color: #ba6c62;
+    width:230px;
+    height: 230px;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.inner1{
+    background-color: green;
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.outer2{
+    display: inline-block;
+    background-color: #ba6f84 ;
+    height: 250px;
+    width: 150px;
+}
+
+.between2{
+    background-color: #d4b26b;
+    width:120px;
+    height: 220px;
+    margin: 5px;
+    padding: 10px;
+    display: block;
+}
+.inner2{
+    background-color:#4c28e0 ;
+    width:80px;
+    height: 180px;
+    margin: 20px;
+    
+    border-radius: 50px;
+}
+
+.second > .outer2.special{
+    width: 400px;
+    box-shadow: 0px 0px 0px 10px rgb(209, 208, 208);
+
+}
+.second > .outer2.special{
+    width: 450px;
+    border-radius: 150px;
+}
+.outer2 > .between2.special{
+    width:420px ;
+    border-radius: 150px;
+    margin: 5px;
+    padding: 10px;
+}
+.between2 > .inner2.special{
+width:380px;
+border-radius: 150px;
+
+padding: 0px;
+
+}
